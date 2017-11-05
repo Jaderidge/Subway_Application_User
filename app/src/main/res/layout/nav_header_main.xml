@@ -2,14 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="?attr/actionBarSize"
-    android:background="@color/colorPrimary"
-    android:gravity="bottom"
+    android:layout_height="match_parent"
+    android:gravity="top"
     android:orientation="vertical"
-    android:paddingBottom="16dp"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="14dp"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
     <!--<ImageView-->
@@ -28,10 +23,17 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
         android:text="Subway Info System" />
 
 </LinearLayout>
     <!--android:background="@drawable/side_nav_bar"-->
+
+    <!--android:paddingBottom="16dp"-->
+    <!--android:paddingLeft="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingRight="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingTop="14dp"-->

@@ -36,9 +36,5 @@
                 <!--android:title="Send" />-->
         <!--</menu>-->
     <!--</item>-->
-    <item
-
-        android:title="블루투스 항상 켜기"
-        app:actionLayout="@layout/switch_item" />
 
 </menu>

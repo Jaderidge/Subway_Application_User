@@ -1,25 +1,31 @@
 package com.example.jaderidge.subway_application_user;
 
+import android.Manifest;
+import android.bluetooth.BluetoothAdapter;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.View;
-import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.view.ViewGroup;
 import android.widget.CompoundButton;
+import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.Switch;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
-
-
+public class MainActivity extends AppCompatActivity implements TextWatcher{
+    EditText txtSearch;
+    CustomListViewAdapter customListViewAdapter;
+    ListView customList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,16 +43,16 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
-//        Switch app_bar_switch = (Switch)findViewById(R.id.app_bar_switch);
-//        app_bar_switch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-//            @Override
-//            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-//                if(b == true)
-//                    Toast.makeText(MainActivity.this, "On", Toast.LENGTH_SHORT).show();
-//                else
-//                    Toast.makeText(MainActivity.this, "Off", Toast.LENGTH_SHORT).show();
-//            }
-//        });
+        Switch switch_bluetooth = (Switch) findViewById(R.id.switch_bluetooth);
+        switch_bluetooth.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if (b == true)
+                    Toast.makeText(MainActivity.this, "On", Toast.LENGTH_SHORT).show();
+                else
+                    Toast.makeText(MainActivity.this, "Off", Toast.LENGTH_SHORT).show();
+            }
+        });
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -54,8 +60,18 @@ public class MainActivity extends AppCompatActivity
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-        navigationView.setNavigationItemSelectedListener(this);
+        ViewGroup.LayoutParams params = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
+        customList = (ListView)findViewById(R.id.list_main);
+        customListViewAdapter = new CustomListViewAdapter();
+
+        for(int k = 0; k<15; k++)
+            customListViewAdapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.mr_media_play_light), "station_" + k);
+
+        customList.setAdapter(customListViewAdapter);
+//        customList.setVisibility(View.INVISIBLE);
+
+        txtSearch = (EditText)findViewById(R.id.txt_search);
+        txtSearch.addTextChangedListener(this);
 
     }
 
@@ -69,6 +85,31 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
+    @Override
+    public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+    }
+
+    @Override
+    public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+    }
+
+    @Override
+    public void afterTextChanged(Editable editable) {
+        String search = txtSearch.getText().toString();
+        customListViewAdapter.filter(search);
+    }
+}
+
+//    import android.support.design.widget.NavigationView;
+//    import android.view.Menu;
+//    import android.view.MenuItem;
+
+//        implements NavigationView.OnNavigationItemSelectedListener{
+
+//        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+//        navigationView.setNavigationItemSelectedListener(this);
 
 //    @Override
 //    public boolean onCreateOptionsMenu(Menu menu) {
@@ -92,29 +133,40 @@ public class MainActivity extends AppCompatActivity
 //        return super.onOptionsItemSelected(item);
 //    }
 
-    @SuppressWarnings("StatementWithEmptyBody")
-    @Override
-    public boolean onNavigationItemSelected(MenuItem item) {
+//    @SuppressWarnings("StatementWithEmptyBody")
+//    @Override
+//    public boolean onNavigationItemSelected(MenuItem item) {
 //        // Handle navigation view item clicks here.
 //        int id = item.getItemId();
+//        Toast.makeText(MainActivity.this, "id = " + id, Toast.LENGTH_SHORT).show();
 
-//        if (id == R.id.nav_camera) {
-//            // Handle the camera action
-//        } else if (id == R.id.nav_gallery) {
-//
-//        } else if (id == R.id.nav_slideshow) {
-//
-//        } else if (id == R.id.nav_manage) {
-//
-//        } else if (id == R.id.nav_share) {
-//
-//        } else if (id == R.id.nav_send) {
-//
+//        switch(id){
+//            case R.id.app_bar_switch:
+//                Toast.makeText(MainActivity.this, "Ok", Toast.LENGTH_SHORT).show();
+//                break;
 //        }
+//
 //
 //        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
 //        drawer.closeDrawer(GravityCompat.START);
-        return true;
-    }
+//        return true;
+//    }
 
-}
+///////////////////////////////////////////////////////////////////////////////////////////////////
+//        ActivityCompat.shouldShowRequestPermissionRationale(this,Manifest.permission.INTERNET);
+//        ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.INTERNET}, 12345);
+
+//        BluetoothAdapter bta = BluetoothAdapter.getDefaultAdapter();
+//        if(bta == null){
+//            Toast.makeText(MainActivity.this, "블루투스 미지원", Toast.LENGTH_LONG);
+//        }
+//        else{
+//            if(!bta.isEnabled()){
+//                bta.enable();
+//                Toast.makeText(MainActivity.this, "블루투스 활성화", Toast.LENGTH_LONG);
+//            }
+//            else{
+//                bta.disable();
+//                Toast.makeText(MainActivity.this, "블루투스 비활성화", Toast.LENGTH_LONG);
+//            }
+//        }
