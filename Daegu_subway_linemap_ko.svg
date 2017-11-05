@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="612px" height="405px" viewBox="0 0 612 405" enable-background="new 0 0 612 405" xml:space="preserve">
+<symbol  id="환승역_1_" viewBox="-3.5 -3.5 7 7">
+	<g>
+		<path fill="#FFFFFF" d="M0-2.75c-1.517,0-2.75,1.233-2.75,2.75S-1.517,2.75,0,2.75S2.75,1.517,2.75,0S1.517-2.75,0-2.75L0-2.75z"
+			/>
+		<path fill="#231F20" d="M0,2c1.103,0,2-0.897,2-2S1.103-2,0-2s-2,0.897-2,2S-1.103,2,0,2 M0,3.5c-1.934,0-3.5-1.566-3.5-3.5
+			S-1.934-3.5,0-3.5S3.5-1.934,3.5,0S1.934,3.5,0,3.5L0,3.5z"/>
+	</g>
+</symbol>
+<g id="바탕">
+</g>
+<g id="노선">
+	<g id="_x33_호선">
+		<polyline fill="none" stroke="#BD9A2F" stroke-width="4" stroke-dasharray="10,5" points="252,27 252,63 252,90 216,126 216,144 
+			225,153 225,171 243,189 288,189 297,198 297,261 324,261 333,270 378,270 378,324 405,351 414,351 		"/>
+	</g>
+	<g id="_x32_호선">
+		<polyline fill="none" stroke="#50B848" stroke-width="4" points="27,252 63,252 81,270 243,270 270,243 333,243 342,252 423,252 
+			468,297 549,297 		"/>
+	</g>
+	<g id="_x31_호선">
+		<polyline fill="none" stroke="#DD0000" stroke-width="4" points="585,234 504,234 468,198 396,198 378,216 324,216 315,225 
+			315,288 297,306 252,306 180,378 162,378 		"/>
+	</g>
+</g>
+<g id="역">
+	<g id="일반역">
+		<g id="환승역">
+			
+				<use xlink:href="#환승역_1_"  width="7" height="7" x="-3.5" y="-3.5" transform="matrix(1 0 0 -1 314.9785 261.0002)" overflow="visible"/>
+			
+				<use xlink:href="#환승역_1_"  width="7" height="7" x="-3.5" y="-3.5" transform="matrix(1 0 0 -1 314.9785 243.0002)" overflow="visible"/>
+			
+				<use xlink:href="#환승역_1_"  width="7" height="7" x="-3.5" y="-3.5" transform="matrix(1 0 0 -1 297 243.0002)" overflow="visible"/>
+		</g>
+		<g id="_x32_호선_1_">
+			<line fill="none" stroke="#50B848" stroke-width="2" x1="230.167" y1="275" x2="230.167" y2="270"/>
+			<line fill="none" stroke="#50B848" stroke-width="2" x1="354.667" y1="252" x2="354.667" y2="247"/>
+			<line fill="none" stroke="#50B848" stroke-width="2" x1="374.333" y1="252" x2="374.333" y2="247"/>
+			<line fill="none" stroke="#50B848" stroke-width="2" x1="412.667" y1="257" x2="412.667" y2="252"/>
+			<line fill="none" stroke="#50B848" stroke-width="2" x1="395.082" y1="252" x2="395.082" y2="247"/>
+			<line fill="none" stroke="#50B848" stroke-width="2" x1="475.917" y1="302" x2="475.917" y2="297"/>
+			<line fill="none" stroke="#50B848" stroke-width="2" x1="504.5" y1="302" x2="504.5" y2="297"/>
+			<line fill="none" stroke="#50B848" stroke-width="2" x1="526.917" y1="302" x2="526.917" y2="297"/>
+			<line fill="none" stroke="#50B848" stroke-width="2" x1="548" y1="302" x2="548" y2="297"/>
+			<line fill="none" stroke="#50B848" stroke-width="2" x1="429.965" y1="266.035" x2="433.5" y2="262.5"/>
+			<line fill="none" stroke="#50B848" stroke-width="2" x1="455.59" y1="291.661" x2="459.125" y2="288.125"/>
+			<line fill="none" stroke="#50B848" stroke-width="2" x1="277" y1="248" x2="277" y2="243"/>
+			<line fill="none" stroke="#50B848" stroke-width="2" x1="336.682" y1="246.735" x2="340.217" y2="243.199"/>
+			<line fill="none" stroke="#50B848" stroke-width="2" x1="250.786" y1="269.286" x2="247.25" y2="265.75"/>
+			<line fill="none" stroke="#50B848" stroke-width="2" x1="259.083" y1="253.917" x2="255.548" y2="250.381"/>
+			<line fill="none" stroke="#50B848" stroke-width="2" x1="212.5" y1="275" x2="212.5" y2="270"/>
+			<line fill="none" stroke="#50B848" stroke-width="2" x1="195" y1="275" x2="195" y2="270"/>
+			<line fill="none" stroke="#50B848" stroke-width="2" x1="170" y1="275" x2="170" y2="270"/>
+			<line fill="none" stroke="#50B848" stroke-width="2" x1="153" y1="275" x2="153" y2="270"/>
+			<line fill="none" stroke="#50B848" stroke-width="2" x1="125" y1="275" x2="125" y2="270"/>
+			<line fill="none" stroke="#50B848" stroke-width="2" x1="99" y1="275" x2="99" y2="270"/>
+			<line fill="none" stroke="#50B848" stroke-width="2" x1="71.69" y1="267.761" x2="75.226" y2="264.226"/>
+			<line fill="none" stroke="#50B848" stroke-width="2" x1="28" y1="257" x2="28" y2="252"/>
+			<line fill="none" stroke="#50B848" stroke-width="2" x1="60" y1="257" x2="60" y2="252"/>
+		</g>
+		<g id="_x31_호선_1_">
+			<line fill="none" stroke="#DD0000" stroke-width="2" x1="310" y1="277.563" x2="315" y2="277.563"/>
+			<line fill="none" stroke="#DD0000" stroke-width="2" x1="315" y1="230.083" x2="320" y2="230.083"/>
+			<line fill="none" stroke="#DD0000" stroke-width="2" x1="337.75" y1="216" x2="337.75" y2="211"/>
+			<line fill="none" stroke="#DD0000" stroke-width="2" x1="361.25" y1="216" x2="361.25" y2="211"/>
+			<line fill="none" stroke="#DD0000" stroke-width="2" x1="421.625" y1="203" x2="421.625" y2="198"/>
+			<line fill="none" stroke="#DD0000" stroke-width="2" x1="405.833" y1="203" x2="405.833" y2="198"/>
+			<line fill="none" stroke="#DD0000" stroke-width="2" x1="440.5" y1="203" x2="440.5" y2="198"/>
+			<line fill="none" stroke="#DD0000" stroke-width="2" x1="459.125" y1="203" x2="459.125" y2="198"/>
+			<line fill="none" stroke="#DD0000" stroke-width="2" x1="519.5" y1="239" x2="519.5" y2="234"/>
+			<line fill="none" stroke="#DD0000" stroke-width="2" x1="541.75" y1="239" x2="541.75" y2="234"/>
+			<line fill="none" stroke="#DD0000" stroke-width="2" x1="560.75" y1="239" x2="560.75" y2="234"/>
+			<line fill="none" stroke="#DD0000" stroke-width="2" x1="584" y1="239" x2="584" y2="234"/>
+			<line fill="none" stroke="#DD0000" stroke-width="2" x1="480.697" y1="217.768" x2="484.232" y2="214.232"/>
+			<line fill="none" stroke="#DD0000" stroke-width="2" x1="497.715" y1="234.785" x2="501.25" y2="231.25"/>
+			<line fill="none" stroke="#DD0000" stroke-width="2" x1="384.035" y1="217.035" x2="380.5" y2="213.5"/>
+			<line fill="none" stroke="#DD0000" stroke-width="2" x1="392.125" y1="201.875" x2="388.59" y2="198.34"/>
+			<line fill="none" stroke="#DD0000" stroke-width="2" x1="315" y1="217.93" x2="318.535" y2="221.465"/>
+			<line fill="none" stroke="#DD0000" stroke-width="2" x1="308.625" y1="294.375" x2="312.161" y2="297.91"/>
+			<line fill="none" stroke="#DD0000" stroke-width="2" x1="236.292" y1="321.707" x2="239.827" y2="325.243"/>
+			<line fill="none" stroke="#DD0000" stroke-width="2" x1="246.089" y1="304.84" x2="249.625" y2="308.375"/>
+			<line fill="none" stroke="#DD0000" stroke-width="2" x1="217.756" y1="333.174" x2="221.292" y2="336.709"/>
+			<line fill="none" stroke="#DD0000" stroke-width="2" x1="209.125" y1="348.876" x2="212.66" y2="352.41"/>
+			<line fill="none" stroke="#DD0000" stroke-width="2" x1="195.381" y1="355.549" x2="198.917" y2="359.084"/>
+			<line fill="none" stroke="#DD0000" stroke-width="2" x1="189.125" y1="368.875" x2="192.661" y2="372.409"/>
+			<line fill="none" stroke="#DD0000" stroke-width="2" x1="163" y1="378" x2="163" y2="383"/>
+			<line fill="none" stroke="#DD0000" stroke-width="2" x1="294.188" y1="306" x2="294.188" y2="311"/>
+			<line fill="none" stroke="#DD0000" stroke-width="2" x1="279.5" y1="306" x2="279.5" y2="311"/>
+			<line fill="none" stroke="#DD0000" stroke-width="2" x1="265.125" y1="306" x2="265.125" y2="311"/>
+		</g>
+	</g>
+	<g id="역명_x28_ko_x29_">
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 159.1704 393.5081)" fill="#231F20" font-family="'UnDotum'" font-size="5">대곡</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 261.0044 321.675)" fill="#231F20" font-family="'UnDotum'" font-size="5">대명</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 226.0044 285.342)" fill="#231F20" font-family="'UnDotum'" font-size="5">감삼</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 208.3804 285.342)" fill="#231F20" font-family="'UnDotum'" font-size="5">죽전</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 191.0786 285.342)" fill="#231F20" font-family="'UnDotum'" font-size="5">용산</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 165.7446 285.342)" fill="#231F20" font-family="'UnDotum'" font-size="5">이곡</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 141.5073 292.4124)" fill="#231F20" font-family="'UnDotum'" font-size="5">성서공단</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 116.8755 288.8772)" fill="#231F20" font-family="'UnDotum'" font-size="5">계명대</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 94.2446 285.342)" fill="#231F20" font-family="'UnDotum'" font-size="5">강창</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 64.6196 277.0715)" fill="#231F20" font-family="'UnDotum'" font-size="5">대실</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 55.6196 267.4045)" fill="#231F20" font-family="'UnDotum'" font-size="5">다사</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 23.4536 267.4045)" fill="#231F20" font-family="'UnDotum'" font-size="5">문양</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 301.5542 284.634)" fill="#231F20" font-family="'UnDotum'" font-size="5">교대</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 417.7207 213.634)" fill="#231F20" font-family="'UnDotum'" font-size="5">동촌</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 398.3936 217.1692)" fill="#231F20" font-family="'UnDotum'" font-size="5">아양교</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 408.6787 267.134)" fill="#231F20" font-family="'UnDotum'" font-size="5">만촌</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 395.083 245.7297)" fill="#231F20" font-family="'UnDotum'" font-size="5">수성구청</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 423.4287 274.884)" fill="#231F20" font-family="'UnDotum'" font-size="5">담티</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 449.1787 300.634)" fill="#231F20" font-family="'UnDotum'" font-size="5">연호</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 467.7686 315.5442)" fill="#231F20" font-family="'UnDotum'" font-size="5">대공원</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 500.4287 312.009)" fill="#231F20" font-family="'UnDotum'" font-size="5">고산</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 522.5537 312.009)" fill="#231F20" font-family="'UnDotum'" font-size="5">신매</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 543.8037 312.009)" fill="#231F20" font-family="'UnDotum'" font-size="5">사월</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 436.0547 213.634)" fill="#231F20" font-family="'UnDotum'" font-size="5">해안</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 455.0547 213.634)" fill="#231F20" font-family="'UnDotum'" font-size="5">방촌</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 473.627 226.8)" fill="#231F20" font-family="'UnDotum'" font-size="5">용계</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 490.6777 243.8508)" fill="#231F20" font-family="'UnDotum'" font-size="5">율하</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 514.8438 249.3508)" fill="#231F20" font-family="'UnDotum'" font-size="5">신기</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 533.8037 252.886)" fill="#231F20" font-family="'UnDotum'" font-size="5">반야월</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 556.7324 249.3508)" fill="#231F20" font-family="'UnDotum'" font-size="5">각산</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 579.6777 249.3508)" fill="#231F20" font-family="'UnDotum'" font-size="5">안심</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 305.0903 273.634)" fill="#231F20" font-family="'UnDotum'" font-size="5">명덕</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 279.894 262.1418)" fill="#231F20" font-family="'UnDotum'" font-size="5">서문시장</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 268.894 261.7737)" fill="#231F20" font-family="'UnDotum'" font-size="5">반고개</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 250.7983 252.8694)" fill="#231F20" font-family="'UnDotum'" font-size="5">내당</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 250.1265 275.7356)" fill="#231F20" font-family="'UnDotum'" font-size="5">두류</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 320.0596 239.9768)" fill="#231F20" font-family="'UnDotum'" font-size="5">반월당</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 342.1846 243.9768)" fill="#231F20" font-family="'UnDotum'" font-size="5">경대병원</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 354.667 245.9768)" fill="#231F20" font-family="'UnDotum'" font-size="5">대구은행</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 374.333 245.9768)" fill="#231F20" font-family="'UnDotum'" font-size="5">범어</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 337.75 210.1663)" fill="#231F20" font-family="'UnDotum'" font-size="5">칠성시장</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 361.25 210.1663)" fill="#231F20" font-family="'UnDotum'" font-size="5">신천</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 321.916 231.2092)" fill="#231F20" font-family="'UnDotum'" font-size="5">중앙로</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 271.3022 325.2102)" fill="#231F20" font-family="'UnDotum'" font-size="5">안지랑</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 286.394 325.2102)" fill="#231F20" font-family="'UnDotum'" font-size="5">현충로</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 193.0483 379.4719)" fill="#231F20" font-family="'UnDotum'" font-size="5">진천</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 190.5962 357.6858)" fill="#231F20" font-family="'UnDotum'" font-size="5">월배</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 212.6733 359.8469)" fill="#231F20" font-family="'UnDotum'" font-size="5">상인</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 212.8882 335.3938)" fill="#231F20" font-family="'UnDotum'" font-size="5">월촌</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 239.8081 308.4749)" fill="#231F20" font-family="'UnDotum'" font-size="5">성당못</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 239.8403 332.6799)" fill="#231F20" font-family="'UnDotum'" font-size="5">송현</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 308.8438 309.176)" fill="#231F20" font-family="'UnDotum'" font-size="5">영대병원</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 308.5303 222.3381)" fill="#231F20" font-family="'UnDotum'" font-size="5">대구역</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 381.5957 226.5354)" fill="#231F20" font-family="'UnDotum'" font-size="5">동대구역</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 382.3926 202.2678)" fill="#231F20" font-family="'UnDotum'" font-size="5">큰고개</text>
+	</g>
+</g>
+<g id="범례">
+	<text transform="matrix(1 0 0 1 33.167 54.6663)" fill="#231F20" font-family="'Tahoma'" font-size="5">100218</text>
+	<g id="텍스트_x28_ko_x29_">
+		<text transform="matrix(1 0 0 1 80.9995 90.5999)" fill="#231F20" font-family="'UnDotum'" font-size="7">환승역</text>
+		<text transform="matrix(1 0 0 1 81 81.5999)" fill="#231F20" font-family="'UnDotum'" font-size="7">3호선</text>
+		<text transform="matrix(1 0 0 1 147.4995 72.7502)" fill="#231F20" font-family="'UnDotum'" font-size="7">2호선</text>
+		<text transform="matrix(1 0 0 1 81 72.5999)" fill="#231F20" font-family="'UnDotum'" font-size="7">1호선</text>
+		<text transform="matrix(1 0 0 1 31.5005 45.0002)" fill="#231F20" font-family="'UnDotum'" font-size="20">대구 도시철도 노선도</text>
+	</g>
+	<g id="Pic">
+		
+			<use xlink:href="#환승역_1_"  width="7" height="7" x="-3.5" y="-3.5" transform="matrix(1 0 0 -1 62.5 88.2502)" overflow="visible"/>
+		<line fill="none" stroke="#DD0000" stroke-width="4" x1="49" y1="72" x2="76" y2="72"/>
+		<line fill="none" stroke="#DD0000" stroke-width="2" x1="62.5" y1="67" x2="62.5" y2="72"/>
+		<line fill="none" stroke="#BD9A2F" stroke-width="4" x1="49" y1="81" x2="76" y2="81"/>
+		<line fill="none" stroke="#BD9A2F" stroke-width="2" x1="62.5" y1="76" x2="62.5" y2="81"/>
+		<line fill="none" stroke="#50B848" stroke-width="4" x1="115.5" y1="72" x2="142.5" y2="72"/>
+		<line fill="none" stroke="#50B848" stroke-width="2" x1="129" y1="67" x2="129" y2="72"/>
+	</g>
+</g>
+</svg>
