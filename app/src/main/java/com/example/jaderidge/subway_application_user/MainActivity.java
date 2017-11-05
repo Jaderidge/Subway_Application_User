@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 if ((x >= 64 && x <= 81) && (y >= 538 && y <= 562))
                 {
                     Toast.makeText(MainActivity.this, "문양", Toast.LENGTH_SHORT).show();
-                    linearLayout.setVisibility(View.VISIBLE); // linearLayout 보이게 하기
+                    linearLayout.setVisibility(View.VISIBLE); // linearLayout 볼 수 있게 하기
                 }
                 else if ((x >= 102 && x <= 120) && (y >= 553 && y <= 579))
                 {
