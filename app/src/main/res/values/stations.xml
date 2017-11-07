@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="stations">
+        <item>문양</item>
+        <item>다사</item>
+        <item>대실</item>
+        <item>강창</item>
+        <item>계명대</item>
+        <item>성서산업단지</item>
+        <item>이곡</item>
+        <item>용산</item>
+        <item>죽전</item>
+        <item>감삼</item>
+        <item>두류</item>
+        <item>내당</item>
+        <item>반고개</item>
+        <item>신남</item>
+        <item>반월당</item>
+        <item>경대병원</item>
+        <item>대구은행</item>
+        <item>범어</item>
+        <item>수성구청</item>
+        <item>만촌</item>
+        <item>담티</item>
+        <item>연호</item>
+        <item>대공원</item>
+        <item>고산</item>
+        <item>신매</item>
+        <item>사월</item>
+        <item>정평</item>
+        <item>임당</item>
+        <item>영남대</item>
+    </string-array>
+</resources>

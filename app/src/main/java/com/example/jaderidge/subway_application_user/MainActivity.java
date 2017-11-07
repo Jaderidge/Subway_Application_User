@@ -16,11 +16,14 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Switch;
 import android.widget.Toast;
+
+import com.estimote.sdk.SystemRequirementsChecker;
 
 public class MainActivity extends AppCompatActivity implements TextWatcher{
     EditText txtSearch;
@@ -35,11 +38,17 @@ public class MainActivity extends AppCompatActivity implements TextWatcher{
         setSupportActionBar(toolbar);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+//        fab.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+//                        .setAction("Action", null).show();
+//            }
+//        });
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Toast.makeText(MainActivity.this ,"gps용 스위치",Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -64,15 +73,36 @@ public class MainActivity extends AppCompatActivity implements TextWatcher{
         customList = (ListView)findViewById(R.id.list_main);
         customListViewAdapter = new CustomListViewAdapter();
 
-        for(int k = 0; k<15; k++)
-            customListViewAdapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.mr_media_play_light), "station_" + k);
+
+        String[] stations = getResources().getStringArray(R.array.stations);
+        for(int k = 0; k<stations.length; k++)
+            customListViewAdapter.addItem(getResources().getDrawable(R.drawable.line2), stations[k]);
+
+//        customListViewAdapter.addList(getResources().getDrawable(R.drawable.subway_line_2), getResources().getStringArray(R.array.stations));
+//        customListViewAdapter.addList(getResources().getDrawable(R.drawable.line2), stations);
 
         customList.setAdapter(customListViewAdapter);
-//        customList.setVisibility(View.INVISIBLE);
+
+//        ArrayAdapter arrayAdapter = ArrayAdapter.createFromResource(getApplicationContext(), R.array.stations, android.R.layout.simple_list_item_1);
+//        customList.setAdapter(arrayAdapter);
 
         txtSearch = (EditText)findViewById(R.id.txt_search);
         txtSearch.addTextChangedListener(this);
 
+
+
+
+
+
+    }
+    protected  void onResume() {
+        super.onResume();
+
+        SystemRequirementsChecker.checkWithDefaultDialogs(this);
+    }
+
+    protected  void onPause(){
+        super.onPause();
     }
 
     @Override
@@ -153,9 +183,10 @@ public class MainActivity extends AppCompatActivity implements TextWatcher{
 //    }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
+
 //        ActivityCompat.shouldShowRequestPermissionRationale(this,Manifest.permission.INTERNET);
 //        ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.INTERNET}, 12345);
-
+//
 //        BluetoothAdapter bta = BluetoothAdapter.getDefaultAdapter();
 //        if(bta == null){
 //            Toast.makeText(MainActivity.this, "블루투스 미지원", Toast.LENGTH_LONG);

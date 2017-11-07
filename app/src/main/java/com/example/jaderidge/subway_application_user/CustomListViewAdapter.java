@@ -68,10 +68,20 @@ public class CustomListViewAdapter extends BaseAdapter {
 
     }
 
+    public void addList(Drawable img, String[] stations) {
+        CustomListItem customListItem = new CustomListItem();
+
+        for (int i = 0; i < stations.length; i++) {
+            customListItem.setIcon(img);
+            customListItem.setStation(stations[i]);
+            customListItems.add(customListItem);
+        }
+    }
+
     public void filter(String search){
         displayListItems.clear();
         if(search.length() == 0){
-//            displayListItems.addAll(customListItems);
+           //displayListItems.addAll(customListItems);
         }
         else{
             for(CustomListItem items : customListItems)
